@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Algorithm Match</title>
+    <style>
+        body {
+            /* font-family: "Gotham", Arial, sans-serif; */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #F0F0F0;
+        }
+
+        @font-face {
+            font-family: "Gotham";
+            src: url("./assets/fonts/Gotham-Bold.ttf");
+        }
+
+        @font-face {
+            font-family: "Gotham-medium";
+            src: url("./assets/fonts/Gotham-Medium.ttf");
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 3px solid #323e48;
+            border-radius: 28px;
+            overflow: hidden;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            font-family: "Gotham", Arial, sans-serif;
+        }
+
+
+
+        .btn {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .btn button {
+            display: inline-block;
+            background-color: #c40d3c;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 15px;
+            border: 1px solid #c40d3c;
+            text-align: center;
+            text-decoration: none;
+            font-family: "Gotham-medium";
+            transition: transform 0.1s, background-color 0.1s, border-radius 0.1s; 
+        }
+
+        .btn button:hover {
+            transform: scale(1.1);
+            border-radius: 12px;
+            color: #323e48;
+        }
+
+        .header {
+            padding: 20px;
+            background-color: #c40d3c;
+            text-align: center;
+            color: #fff;
+            border-radius: 24px;
+        }
+
+        .header img {
+            height: 65px;
+        }
+
+        .content {
+            padding: 0 20px;
+        }
+
+        .content h1 {
+            font-family: "Gotham", Arial, sans-serif;
+            font-size: 24px;
+            color: #323e48;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 8px 0;
+        }
+
+        .box {
+            border: 3px solid #323e48;
+            border-radius: 24px;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        .box h2 {
+            font-family: "Gotham", Arial, sans-serif;
+            font-size: 18px;
+            margin: 0;
+            color: #c40d3c;
+            text-align: center;
+        }
+
+        .box td,
+        .box th {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            font-family: "Gotham", Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 900;
+            color: #323e48;
+        }
+
+        td {
+            font-family: "Gotham-medium", Arial, sans-serif;
+            font-size: 14px;
+            font-size: 500;
+            color: #323e48;
+        }
+
+        .side-by-side {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .side-by-side .box {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #F0F0F0;
+            padding: 20px;
+            border-top: 3px solid #323e48;
+            text-align: center;
+        }
+
+        .footer p {
+            font-family: "Gotham-medium";
+            font-size: 14px;
+            font-weight: 500;
+            color: #323e48;
+            margin: 5px 0;
+        }
+
+        .footer a {
+            color: #c40d3c;
+            text-decoration: none;
+        }
+
+        .footer .social-links a {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .footer .social-links img {
+            height: 34px;
+            width: 34px;
+        }
+
+        .footer .social-links img {
+            transition: transform 0.1s, background-color 0.1s, border-radius 0.1s;
+        }
+
+        .footer .social-links img:hover {
+            background-color: #c40d3c;
+            border-radius: 12px;
+            transform: scale(1.1);
+            transition: transform 0.1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./assets/images/Discovery Alert Logo_White and Red (1).png" alt="Company Logo">
+        </div>
+        <div class="content">
+            <h1>AI TRADE ALERTS</h1>
+            <div class="btn">
+                <button> <a href="./index.html">Another Record Drilling Result From The First Drilling
+                        Program</a></button>
+            </div>
+
+            <div class="box">
+                <h2>COMPANY DETAILS</h2>
+                <table>
+                    <tr>
+                        <th>ASX Code</th>
+                        <td>MTG</td>
+                    </tr>
+                    <tr>
+                        <th>COMPANY NAME</th>
+                        <td>MOUNT REGAL RESOURCE</td>
+                    </tr>
+                    <tr>
+                        <th>MARKET CAP</th>
+                        <td>$12M</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="box">
+                <h2>BEST DRILL RESULT</h2>
+                <table>
+                    <tr>
+                        <td>20 m @ 1.6g/t Au, 2% Cu, 1% TiO2 from 150m (DDR105)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="box">
+                <h2>DRILL PROGRAM SIZE</h2>
+                <table>
+                    <tr>
+                        <td>Exploration Drill Program</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="side-by-side">
+                <div class="box">
+                    <h2>AuEq Grade</h2>
+                    <table>
+                        <tr>
+                            <td>2.5 <sub>g/t</sub></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="box">
+                    <h2>AuEq GxM</h2>
+                    <table>
+                        <tr>
+                            <td>220 <sub>Gxm</sub></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>PROJECT DETAILS</h2>
+                <table>
+                    <tr>
+                        <th>PROJECT NAME</th>
+                        <td>MOUNT ALEXANDER</td>
+                    </tr>
+                    <tr>
+                        <th>PROSPECT NAME</th>
+                        <td>DIANE ROSE</td>
+                    </tr>
+                    <tr>
+                        <th>PROJECT LOCATION</th>
+                        <td>WESTERN AUSTRALIA</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="box">
+                <h2>AI SUMMARY</h2>
+                <table>
+                    <tr>
+                        <td style="text-transform:uppercase;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Id debitis autem necessitatibus modi fugiat explicabo, facilis expedita laborum repudiandae
+                            in obcaecati animi aspernatur nihil amet voluptas quo cum architecto ut.</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="btn">
+                <button> <a href="./index.html">READ FULL ANNOUNCEMENT</a></button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>1234 Company Address, City, State, ZIP</p>
+            <p>Phone: (123) 456-7890 | Email: <a href="#">info@example.com</a></p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><img src="./assets/images/facebook.png"
+                        alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="./assets/images/twitter.png" alt="Twitter"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="./assets/images/linkedin.png"
+                        alt="LinkedIn"></a>
+            </div>
+            <p><a href="#">Unsubscribe</a></p>
+            <p>&copy; 2024 Company Name. All rights reserved.</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
